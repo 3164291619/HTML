@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>路径</h2>
+  <p>目录文件和根目录</b>
+    <!-- 目录文件就是普通文件，打开目录文件夹第一层 -->
+  <h4>相对路径</h4>
+  <!-- 应用文件所在位置为参考基础，而建立出的目录路径 -->
+  <h5>同一级路径</h5>
+  <!-- 文件为同一级 -->
+  <img src="暖暖.jpeg" alt="" width="500" height="300">
+  <h5>下一级路径</h5>
+  <!-- 图像位于HTML的下一级 -->
+  <p>符号：/<br>
+    <img src="/下一级/暖暖.jpeg" alt="" width="500" height="300"></b>
+
+  <h5>上一级路径</h5>
+  <!-- 图像位于HTML的上一级 -->
+  <p>符号：../</p>
+  <h4>绝对路径</h4>
+  <!-- 指目录下的绝对位置，直接到达目标，例如：D:\.....\....\... -->
+  <img src="D:\新建文件夹 (2)\Desktop\HTML第一天\第四天\暖暖.jpeg" alt="" width="500" height="300">
+  <pr>
+    <img src="https://www.itcast.cn/2018czgw/images/logo2.png" alt="">
+    <h2>超链接标签</h2>
+    <!-- <a>标签用于定义超链接，作用是从一个页面链接到另一个页面 -->
+    <h4>链接的语法格式</h4>
+    <!-- <a href="跳转目标" target="目标窗口的弹出方式">文本或图像</a> -->
+    <h5>两个属性的作用</h5>
+    <p>href:用于指定链接目标的url地址<br>
+      target:用于指定链接页面打开的方式</p>
+    <p>_self:在此页面打开<br>
+      _blank:新建一个窗口打开
+    </p>
+    <h4>链接的分类</h4>
+    <h5>1.外部链接</h5>
+    <a href="https://github.com/">github</a><br>
+    <a href="https://github.com/" target="_self">github</a><br>
+    <a href="https://github.com/" target="_blank">github</a>
+    <h5>2.内部链接</h5>
+    <p>网站内部页面之间互相链接</b><br>
+      <a href="下一级/02.html" target="_blank">02</a>
+    <h5>3.空链接</h5>
+    <p>没有确切的目标时</b><br>
+      <a href="#" target="_blank">首页</a>
+    <h5>4.下载链接</h5>
+    <p>如果链接是压缩包，点击，下载</b><br>
+      <a href="暖暖.zip" target="_blank">暖暖</a>
+    <h5>5.网页元素链接</h5>
+    <p>什么都可以添加超链接<br>
+      <a href="https://github.com/" target="_blank">暖暖.jpeg</a></b>
+    <h5>6.锚点链接</h5>
+    <p>我们点击链接，可以快速定位到某个位置<br>
+      1.在链接文本的href属性中，设置性值为#名字的形式，如<a href="#tow">点击</a><br>
+      2.找到目标位置标签，里面添加一个id属性=刚才的名字，如：
+    <h3 id="tow">点击</h3><br>
+    <a href="#nuanuan">暖暖的介绍</a><br>
+    x <br>
+    x<br>
+    x<br>
+    x<br>
+    x<br><br>
+    x<br><br>
+    x<br><br><br>
+    x<br>
+    <br>
+    <br>x
+    x<br>
+    x<br>
+
+    x<br>
+
+    x
+    <h6 id="nuanuan">暖暖的介绍</h6><br>
+    暖暖是一个善良、可爱、勇敢的孩子<br>
+    她出生在一个冬天
+    </b>
+</body>
+
+</html>
